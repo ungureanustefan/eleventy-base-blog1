@@ -6,7 +6,8 @@ eleventyNavigation:
   key: Tip Calculator
   order: 6
 ---
-
+<!doctype html>
+<html>
 <head>
         <script src="index.js"></script>
         <meta charset="utf-8" />
@@ -29,3 +30,4 @@ eleventyNavigation:
             <span id="rounded"></span> 
         </div>
     </body>
+</html>
