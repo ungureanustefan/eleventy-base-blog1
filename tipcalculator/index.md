@@ -9,7 +9,7 @@ eleventyNavigation:
 <!doctype html>
 <html>
 <head>
-        <script src="index.js"></script>
+        <script src="./index.js"></script>
         <meta charset="utf-8" />
     </head>
     <body>
