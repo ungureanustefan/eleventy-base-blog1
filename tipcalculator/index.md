@@ -6,7 +6,6 @@ eleventyNavigation:
   key: Tip Calculator
   order: 6
 ---
-<!doctype html>
 <html>
 <head>
         <script>
