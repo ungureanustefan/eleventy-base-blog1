@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Javascript tasks
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Tip Calculator
+  key: Javascript tasks
   order: 7
 ---
 
