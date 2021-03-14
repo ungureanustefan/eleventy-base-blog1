@@ -18,10 +18,10 @@
       <h1 class="home"><a href="{{ '/' | url }}"><img style="width: 30px; length: 30px" src="https://ih1.redbubble.net/image.1929880442.1135/flat,128x128,075,t.jpg">{{ metadata.title }}</a></h1>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <div class="navbar-header">
-      <ul class="nav">
+      <div class="nav nav-tabs">
+      <ul>
       {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" role="tab" aria-controls="nav-home" aria-selected="true" href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
       </div>
@@ -61,7 +61,7 @@
     <!-- Copyrights -->
     <div class="bg-light py-4">
       <div class="container text-center">
-        <p class="text-muted mb-0 py-2">© 2019 Bootstrapious All rights reserved.</p>
+        <p class="text-muted mb-0 py-2">© 2021 Bootstrapious All rights reserved.</p>
       </div>
     </div>
   </footer>
