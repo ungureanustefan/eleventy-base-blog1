@@ -1,13 +1,13 @@
 ---
 layout: layouts/post.njk
-title: Javascript tasks
+title: Functions & Control Flow - Part 2
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Javascript tasks
-  order: 7
+  key: Functions & Control Flow - Part 2
+  order: 8
 ---
 
-# Javascript tasks - second part
+# Tasks
 
 ## Task 1
 
