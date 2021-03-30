@@ -4,7 +4,7 @@ title: Loops, Arrays & Objects
 templateClass: tmpl-post
 eleventyNavigation:
   key: Loops, Arrays & Objects
-  order: 9
+  order: 10
 ---
 
 # Task 1 - Loops
